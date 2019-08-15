@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pageHeader {
+    display: flex;
+    justify-content: center;
+    color: red;
+    padding-bottom: 1em;
+}
+
+.list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.shop {
+    width: 30%;
+    text-align: center;
+    border: 1px dashed black;
+}
